@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #CCCCCC;
+    background-image: url("white eagle.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    
+
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background: #7628A9;
+    line-height: 32.5px;
+}
+nav img {
+    padding-left: 20px;
+}
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li:hover a {
+    color: #7628A9;
+    background-color: #CCCCCC;
+    border: none;
+    /* border-bottom: 2px solid #7628A9; */
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+nav ul li ul li {
+    float: none;
+}
+table{
+    
+    border-spacing: 10px;
+    border:1px solid transparent;
+    width: 20%;
+    margin-top: 10px;
+}
+.tab-2{
+margin-left: 900px;
+
+}
+
+    
+
+    
+
+button{
+    background-color: #7628A9;
+    color:#CCCCCC;
+    border:0;
+    margin:5px; 
+}
+
+#table th{
+    padding:15px;
+}
+table td{
+    padding:15px;
+}
